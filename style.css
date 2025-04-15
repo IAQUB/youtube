@@ -5,6 +5,7 @@ nav{
     margin: 0 20px;
 }
 
+/* navbar left side */
 .nav-left{
     display: flex;
     gap: 15px;
@@ -18,4 +19,54 @@ nav{
     background-color: rgb(221, 221, 191);
     padding: 15px;
     border-radius: 50px;
+}
+
+/* middle section */
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px Solid gray;
+    border-radius: 25px;
+}
+
+.search>input{
+    background-color: transparent;
+    border: 0 solid;
+    outline: none;
+    padding-left: 15px;
+    height: 25px;
+    width: 250px;
+    font-size: 20px;
+}
+
+.search-icon{
+    background-color: rgb(230, 229, 229);;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mic{
+    font-size: 25px;
+    background-color: rgb(230, 229, 229);
+    padding: 20px 22px;
+    border-radius: 35px;
+}
+
+.mic:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.search-icon:hover{
+    background-color: gainsboro;
+    cursor: pointer;
 }
