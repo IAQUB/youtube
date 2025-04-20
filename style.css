@@ -27,7 +27,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 20px;
-    border: 2px Solid gray;
+    border: 1px Solid gray;
     border-radius: 25px;
 }
 
@@ -36,17 +36,18 @@ nav{
     border: 0 solid;
     outline: none;
     padding-left: 15px;
-    height: 25px;
+    height: 20px;
     width: 250px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .search-icon{
     background-color: rgb(230, 229, 229);;
     padding: 10px 20px;
-    border: 1px solid gray;
+    border-left: 1px solid gray;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
+    font-size: 18px;
 }
 
 .middle{
@@ -56,9 +57,9 @@ nav{
 }
 
 .mic{
-    font-size: 25px;
+    font-size: 18px;
     background-color: rgb(230, 229, 229);
-    padding: 20px 22px;
+    padding: 15px 17px;
     border-radius: 35px;
 }
 
@@ -92,9 +93,9 @@ i{
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 25px;
+    font-size: 18px;
     background-color: rgb(230, 229, 229);
-    padding: 10px 25px;
+    padding: 7px 20px;
     border-radius: 35px;
 }
 
@@ -106,6 +107,41 @@ i{
 .profile{
     border: 0 solid gray;
     width: 75px;
-    border-radius: 65px;
+    border-radius: 75px;
     cursor: pointer;
+}
+
+/* main section */
+main{
+    display: flex;
+}
+
+.main-left{
+    width: 240px;
+    height: 100vh;
+    
+}
+
+.main-right{
+    width: 1665px;
+    height: 100vh;
+}
+
+.main-left > button{
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    border-style: none;
+    background-color: gainsboro;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-left > button:hover{
+    background-color: rgb(230, 228, 228);
 }
