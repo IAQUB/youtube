@@ -145,3 +145,21 @@ main{
 .main-left > button:hover{
     background-color: rgb(230, 228, 228);
 }
+
+/* sub navbar creation */
+.sub-nav{
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+}
+
+.sub-nav > p{
+    background-color: gainsboro;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.sub-nav > p:hover{
+    background-color: gray;
+    cursor: pointer;
+}
