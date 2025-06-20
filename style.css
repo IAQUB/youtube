@@ -163,3 +163,37 @@ main{
     background-color: gray;
     cursor: pointer;
 }
+
+.ycards{
+    cursor: pointer;
+    width: 310px;
+}
+
+.ycards>img {
+    height: 175px;
+    width: 310px;
+    border-radius: 15px;
+    
+}
+
+.ycards-des{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0 0;
+}
+
+.ycards-sub{
+    margin: 0 55px;
+    color: gray;
+}
+
+.cards {
+    display: grid;
+    gap: 20px;
+    grid-template:
+        "a a a a a"
+        "b b b b b";
+}
+
+  
